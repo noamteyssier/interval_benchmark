@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+gia window -a data/a.stranded.bed -b data/b.stranded.bed -t 1000 -s > /dev/null,1.6003769349799999,0.008542174384888588,1.59745671878,1.4906324999999998,0.06555904000000001,1.5895515302799998,1.61394498928

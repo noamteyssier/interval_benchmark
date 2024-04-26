@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+bedtools closest -a data/a.stranded.bed -b data/b.stranded.bed -s > /dev/null,3.27003065926,0.02358516961800796,3.26704968786,3.11595916,0.05597825999999999,3.24315560536,3.31732073036

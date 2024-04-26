@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+bedtools coverage -a data/filter.bed -b data/subsample.bam -counts > /dev/null,37.00702598984,2.1951490403106555,37.29302222314,34.54355062,0.9990119799999999,33.33070168164,39.36167284764

@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+gia bam convert -i data/subsample.bam > /dev/null,5.17917942912,0.02271215441574315,5.1810170835200005,4.90311514,0.12886608000000002,5.13458027152,5.21015277052

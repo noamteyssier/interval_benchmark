@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+gia intersect -a data/a.sorted.bed -b data/b.sorted.bed > /dev/null,0.59264421234,0.008330725517247298,0.59092741684,0.55088652,0.02959127999999999,0.57939691634,0.60510029134

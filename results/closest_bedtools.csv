@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+bedtools closest -a data/a.sorted.bed -b data/b.sorted.bed > /dev/null,2.2375585153,0.01914412833495201,2.2333828486,2.14738116,0.04078414,2.2112127651,2.2816753491

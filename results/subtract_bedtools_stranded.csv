@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+bedtools subtract -a data/a.stranded.bed -b data/b.stranded.bed -s > /dev/null,3.8982372993200003,0.01873626715227047,3.89723753322,3.6808936599999997,0.08995881999999998,3.87080190822,3.92954694922

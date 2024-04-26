@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+bedtools slop -i data/large.bed -g data/genome.txt -b 1000 > /dev/null,3.6100890102200003,0.03594457995112713,3.59373411402,3.4614981199999995,0.03422798,3.5748043645200003,3.68329015652

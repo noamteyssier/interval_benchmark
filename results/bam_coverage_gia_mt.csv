@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+gia bam coverage -a data/subsample.bam -b data/filter.bed -t 12 > /dev/null,1.68402778898,0.006256290688621476,1.68413415168,5.110786459999999,0.32214142,1.67375481768,1.6933452766800001

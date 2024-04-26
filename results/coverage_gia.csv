@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+gia coverage -a data/a.sorted.bed -b data/b.sorted.bed > /dev/null,0.56943996846,0.00145318770832707,0.56909879346,0.5270756399999998,0.03044906,0.56781158446,0.57273650146

@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+bedtools window -a data/a.sorted.bed -b data/b.sorted.bed -w 1000 > /dev/null,7.825457709939999,0.028260152378260635,7.82166954734,7.45503758,0.11566034,7.76939436034,7.861265943339999

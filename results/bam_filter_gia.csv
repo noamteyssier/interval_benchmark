@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+gia bam filter -a data/subsample.bam -b data/filter.bed > /dev/null,8.926353981700002,0.09492539921021632,8.8992481068,11.02477564,0.1218813,8.7959484608,9.0932223358

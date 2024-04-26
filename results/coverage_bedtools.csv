@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+bedtools coverage -a data/a.sorted.bed -b data/b.sorted.bed > /dev/null,4.88015176324,0.02474824990827823,4.8816123215400005,4.64152628,0.13263786,4.83506805154,4.93062784254

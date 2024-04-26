@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+gia closest -a data/a.stranded.bed -b data/b.stranded.bed -sm > /dev/null,1.1265095550600002,0.011978791653791277,1.13001238856,1.02710622,0.05898397999999999,1.1008740345599999,1.1413068255599998

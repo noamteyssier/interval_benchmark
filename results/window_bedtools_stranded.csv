@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+bedtools window -a data/a.stranded.bed -b data/b.stranded.bed -w 1000 -sm > /dev/null,7.9921594126399995,0.04028528103498501,7.98144725864,7.623301219999999,0.12210234,7.92979844614,8.06473819614

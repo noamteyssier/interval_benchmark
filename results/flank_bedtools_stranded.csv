@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+bedtools flank -i data/large_stranded.bed -g data/genome.txt -b 1000 -s > /dev/null,7.120118181800001,0.05975853492307061,7.107201461000001,6.83537748,0.05199334,7.034949899,7.19973369

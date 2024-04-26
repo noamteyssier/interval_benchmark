@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+bedtools merge -i data/large.bed > /dev/null,1.96552698932,0.026199870115993385,1.9718856810200003,1.88259278,0.02965236,1.90967170202,1.99132307702

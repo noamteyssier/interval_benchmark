@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+bedtools random -n 10000000 -g data/genome.txt > /dev/null,4.70038906662,0.015281514221806215,4.70025889202,4.564223359999999,0.0112223,4.67663626702,4.72526564202

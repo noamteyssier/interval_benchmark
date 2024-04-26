@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+gia coverage -a data/a.stranded.bed -b data/b.stranded.bed -sm > /dev/null,0.92703145078,0.012882641227682966,0.9261490886800001,0.84193742,0.0500383,0.90906863068,0.95038750468

@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+bedtools intersect -a data/subsample.bam -b data/filter.bed -u > /dev/null,16.11527729986,0.211203588296506,16.05620446226,15.58913852,0.09195792,15.949766836759999,16.688104628759998

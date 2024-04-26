@@ -1,0 +1,2 @@
+command,mean,stddev,median,user,system,min,max
+bedtools subtract -a data/a.sorted.bed -b data/b.sorted.bed > /dev/null,3.34447251756,0.02656560105232111,3.33773101346,3.1429119599999997,0.10011647999999998,3.3100471379600003,3.3937603049600003
