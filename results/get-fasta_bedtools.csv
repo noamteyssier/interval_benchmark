@@ -1,2 +1,2 @@
 command,mean,stddev,median,user,system,min,max
-bedtools getfasta -fi data/Homo_sapiens.GRCh38.dna.primary_assembly.fa -bed data/a.sorted.bed > /dev/null,14.8643398335,0.10857675675687374,14.846774583699998,5.84331386,8.574893079999999,14.739859124699999,15.075615125699999
+bedtools getfasta -fi data/Homo_sapiens.GRCh38.dna.primary_assembly.fa -bed data/a.sorted.bed > /dev/null,14.646538098339999,0.033995352891532965,14.64733759864,5.8005845,8.49476752,14.559619681640001,14.68772018164

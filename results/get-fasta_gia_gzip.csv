@@ -1,2 +1,2 @@
 command,mean,stddev,median,user,system,min,max
-gia get-fasta -f data/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz -i data/a.sorted.bed > /dev/null,7.978643324699999,0.05279062245997333,7.977596653700001,7.486191179999999,0.23053276,7.8984320912,8.0702362162
+gia get-fasta -f data/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz -i data/a.sorted.bed > /dev/null,7.891104208379998,0.03594831212251961,7.89386242518,7.418705179999999,0.22989601999999998,7.82697425868,7.958858591679999

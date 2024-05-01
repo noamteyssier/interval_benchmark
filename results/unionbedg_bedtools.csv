@@ -1,2 +1,2 @@
 command,mean,stddev,median,user,system,min,max
-bedtools unionbedg -i data/a.bedgraph data/b.bedgraph data/c.bedgraph > /dev/null,30.625123919199996,0.15751413272336282,30.5773940359,26.01028248,3.5692041599999995,30.397582077899997,30.8820027859
+bedtools unionbedg -i data/a.bedgraph data/b.bedgraph data/c.bedgraph > /dev/null,30.089981427479994,0.25093779167340097,30.05459154818,26.022760140000003,3.62091868,29.79048723618,30.66286294418

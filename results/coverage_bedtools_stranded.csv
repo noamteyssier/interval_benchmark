@@ -1,2 +1,2 @@
 command,mean,stddev,median,user,system,min,max
-bedtools coverage -a data/a.stranded.bed -b data/b.stranded.bed -s > /dev/null,5.559372162760001,0.028216558597998865,5.55601667106,5.2348406800000005,0.13600338,5.50800752506,5.59627002506
+bedtools coverage -a data/a.stranded.bed -b data/b.stranded.bed -s > /dev/null,5.4823818500599995,0.046872653274119554,5.47850116286,5.22810516,0.12036830000000001,5.41378376636,5.57359693336
