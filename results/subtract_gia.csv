@@ -1,2 +1,2 @@
 command,mean,stddev,median,user,system,min,max
-gia subtract -a data/a.sorted.bed -b data/b.sorted.bed > /dev/null,0.62452194862,0.02206530352115935,0.61616814442,0.57336868,0.03069786,0.60798808242,0.6834163324200001
+gia subtract -a data/a.sorted.bed -b data/b.sorted.bed > /dev/null,0.6224098193,0.00455160444430219,0.6227839361,0.57110398,0.031161460000000002,0.6140557691,0.6306510191
