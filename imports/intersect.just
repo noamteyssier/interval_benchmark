@@ -39,7 +39,7 @@ run_intersect_stream_gia:
 run_intersect_stream_bedops:
     {{HYPERFINE}} \
         --export-csv "{{RESULTS_DIR}}/intersect_stream_bedops.csv" \
-        "bedops -i {{SORTED_A}} {{SORTED_B}} > /dev/null";
+        "bedops -i {{BEDOPS_SORTED_A}} {{BEDOPS_SORTED_B}} > /dev/null";
 
 run_intersect_bedtools_stranded:
     {{HYPERFINE}} \

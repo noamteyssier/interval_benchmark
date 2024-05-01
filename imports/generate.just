@@ -2,11 +2,17 @@ gen_data:
   gia random -n {{NUM_INTERVALS}} -l 250 -c {{NUM_CHROMOSOMES}} -m {{MAX_CHROMOSOME_LEN}} -o {{BED_A}} -s 0
   gia random -n {{NUM_INTERVALS}} -l 500 -c {{NUM_CHROMOSOMES}} -m {{MAX_CHROMOSOME_LEN}} -o {{BED_B}} -s 1
 
-gen_sorted_data:
+gen_sorted_data: gen_sorted_data_regular gen_sorted_data_bedops
+
+gen_sorted_data_regular:
   gia random -n {{NUM_INTERVALS}} -l 250 -c {{NUM_CHROMOSOMES}} -m {{MAX_CHROMOSOME_LEN}} -s 3 | \
     gia sort -o {{SORTED_A}}
   gia random -n {{NUM_INTERVALS}} -l 500 -c {{NUM_CHROMOSOMES}} -m {{MAX_CHROMOSOME_LEN}} -s 4 | \
     gia sort -o {{SORTED_B}}
+
+gen_sorted_data_bedops:
+  sort-bed {{SORTED_A}} > {{BEDOPS_SORTED_A}};
+  sort-bed {{SORTED_B}} > {{BEDOPS_SORTED_B}};
 
 gen_stranded_sorted_data:
   gia random -n {{NUM_INTERVALS}} -l 250 -c {{NUM_CHROMOSOMES}} -m {{MAX_CHROMOSOME_LEN}} -s 3 -T bed6 | \
